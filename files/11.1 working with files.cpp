@@ -23,7 +23,7 @@ int main()
     fout.close();
 
     ifstream fin("ITEM.txt");
-    char a[30];
+    string a;
     float b;
     fin>>a>>b;
 
